@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: "Open Sans", sans-serif;   
+}
+.header nav .nav-item{
+    margin: 0 12px;
+}
+.header nav .d-flex{
+    align-items: center;
+}
+.header nav ul{
+    justify-content: right;
+    width: 100%;
+}
+.header nav ul li a:hover{
+    color: #f5333f;
+}
+.header nav{
+    box-shadow: 0 0 6px #000;
+    padding: 20px;
+}
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.section-one img{
+    width: 570px;
+}
+.section-one{
+    margin: 50px 0 30px;
+}
+.section-one .col-md-5{
+    position: relative;
+}
+.section-one .circle{
+    position: absolute;
+    top: -21px;
+    left: 33px;
+    width: 450px;
+    height: 450px;
+    color: beige;
+    border-radius: 50%;
+    z-index: -1;
+}
+.section-two{
+    background-image: url('../images/about-me-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section-two h2{
+    text-align: center;
+    padding-top: 9rem;
+}
+.section-two .row-1{
+    padding: 3rem 4rem 3rem;
+}
+.section-two .row-2{
+    padding: 1rem 4rem 5rem;
+}
+.section-two .row .col-md-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+
+}
+.section-two .row .col-md-6 img{
+    width: 120px;
+}
+.section-two .row .col-md-6 .comp-image{
+    width: 190px;
+}
+.section-two .row .content-1 h3, .section-two .row .content-2 h3, .section-two .row .content-3 h3, .section-two .row .content-4 h3{
+ font-size: 20px;
+ color: #f5333f;
+}
+.section-two .row .content-1 p, .section-two .row .content-2 p, .section-two .row .content-3 p, .section-two .row .content-4 p{
+ font-size: 15px;
+}
+.section-two .row .content-1, .section-two .row .content-2, .section-two .row .content-3, .section-two .row .content-4 {
+    margin-left: 30px;
+}
+.section-two .learn-more{
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 8rem;
+    padding-top: 1.5rem;
+}
+.section-two .learn-more a{
+    color: #f5333f;
+}
+.section-three .row .col-md-7{
+    padding: 0 4rem;
+}
+.section-three .row h2{
+    margin-bottom: 1.8rem;
+}
+.section-three .row{
+    align-items: center;
+}
+.section-three .row .col-md-7 p{
+    font-size: 18px;
+    text-align: justify;
+}
+.section-three{
+    margin: 6rem 0 5rem;
+}
+.section-four{
+    background-color: #eaebed;
+    padding: 3.5rem 0 4rem;
+    margin: 0 0 4rem;
+    text-align: center;
+}
+.section-four h3{
+    margin: 3rem 0 2rem;
+}
+.section-four .section-four-para{
+    margin: 4rem 0 0;
+    font-size: 18px;
+}
+.section-four h2{
+    margin-bottom: 50px;
+}
+.section-six{
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+.section-six p{
+    font-size: 18px;
+}
+.section-six h2{
+    font-size: 35px;
+}
+.section-one h1{
+    margin-top: 7rem;
+    font-size: 60px;
+    font-family: "Playfair Display", serif;
+}
+.section-one h1 span{
+    color: #f5333f;
+}
+h2{
+    color: #f5333f;
+}
+@media only screen and (max-width: 768px) {
+    .section-one h1 {
+        margin: 0;
+        font-size: 45px;
+        text-align: center;
+        min-height: 275px;
+    }
+    .section-two{
+        background-position: center;
+    }
+    .section-two h2 {
+        padding-top: 7rem;
+    }
+    .section-two .row-1 {
+        padding: 3rem 1rem 0;
+    }
+    .section-two .row .content-1 p, .section-two .row .content-2 p, .section-two .row .content-3 p, .section-two .row .content-4 p {
+        font-size: 14px;
+    }
+    .section-two .row .content-1 h3, .section-two .row .content-2 h3, .section-two .row .content-3 h3, .section-two .row .content-4 h3 {
+        font-size: 16px;
+    }
+    .section-two .row .col-md-6 .comp-image {
+        width: 100px;
+    }
+    .section-two .row .col-md-6 img {
+        width: 80px;
+    }
+    .section-two .row-2 {
+        padding: 1rem 2rem 1rem;
+    }
+    .section-two .learn-more{
+        padding-bottom: 0;
+    }
+    .section-three {
+        margin: 4rem 0 3rem;
+    }
+    .section-three .row h2 {
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .section-three .container{
+        padding: 0;
+    }
+    .section-three h2{
+        text-align: center;
+    }
+    .section-four{
+        margin: 0 0 2rem;
+    }
+}
